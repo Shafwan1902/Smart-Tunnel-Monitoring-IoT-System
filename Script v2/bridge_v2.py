@@ -7,11 +7,11 @@ from influxdb_client.client.write_api import SYNCHRONOUS
 MQTT_BROKER = "broker.hivemq.com"
 MQTT_TOPIC = "monash/studentB/tunnel_data"
 
-# InfluxDB Settings (Matched to your previous file)
+# InfluxDB Settings
 INFLUX_URL = "http://localhost:8086"
-INFLUX_TOKEN = "tx2_FEOzI4qx-z4nSLiAFyLxwXyUmX4GBntWeTmcysrrB_LZEPlOB_uqI4y24bdVCPanTIj1a4iNQHcdpN7law=="
-INFLUX_ORG = "ShafwanCorporation"
-INFLUX_BUCKET = "SmartTunnel"
+INFLUX_TOKEN = "YOUR_INFLUX_TOKEN"
+INFLUX_ORG = "YOUR_INFLUX_ORG"
+INFLUX_BUCKET = "YOUR_INFLUX_BUCKET"
 
 # --- 2. INFLUXDB SETUP ---
 client_db = InfluxDBClient(url=INFLUX_URL, token=INFLUX_TOKEN, org=INFLUX_ORG)
