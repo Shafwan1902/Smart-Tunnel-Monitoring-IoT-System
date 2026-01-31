@@ -11,16 +11,16 @@ MQTT_TOPIC = "monash/studentB/tunnel_data"
 
 # InfluxDB Settings
 INFLUX_URL = "http://localhost:8086"
-INFLUX_TOKEN = "tx2_FEOzI4qx-z4nSLiAFyLxwXyUmX4GBntWeTmcysrrB_LZEPlOB_uqI4y24bdVCPanTIj1a4iNQHcdpN7law=="
-INFLUX_ORG = "ShafwanCorporation"
-INFLUX_BUCKET = "SmartTunnel"
+INFLUX_TOKEN = "YOUR_INFLUX_TOKEN"
+INFLUX_ORG = "YOUR_INFLUX_ORG"
+INFLUX_BUCKET = "YOUR_INFLUX_BUCKET"
 
 # --- TELEGRAM CONFIGURATION ---
 # PASTE YOUR BOT TOKEN INSIDE THE QUOTES BELOW:
-BOT_TOKEN = "8475604135:AAF1BMQi0Xckrik1BRtFHXyVBwtO3mNM3qM" 
+BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
 
 # I found this Chat ID in your screenshot:
-CHAT_ID = "-1003275623160"
+CHAT_ID = "YOUR_TELEGRAM_CHAT_ID"
 
 # How many seconds to wait between alerts (to prevent spamming)
 ALERT_COOLDOWN = 10  
