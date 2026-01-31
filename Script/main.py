@@ -6,8 +6,8 @@ from machine import Pin, ADC
 from umqttsimple import MQTTClient
 
 # --- WI-FI CONFIGURATION (CHANGE THESE!) ---
-WIFI_SSID = "iPhone"
-WIFI_PASSWORD = "12345678"
+WIFI_SSID = "YOUR_WIFI_SSID"
+WIFI_PASSWORD = "YOUR_WIFI_PASSWORD"
 
 # --- MQTT CONFIGURATION ---
 MQTT_BROKER = "broker.hivemq.com"
