@@ -9,8 +9,8 @@ WIFI_SSID = "iPhone"         # <--- CHANGE THIS
 WIFI_PASSWORD = "12345678"   # <--- CHANGE THIS
 
 MQTT_BROKER = "broker.hivemq.com"
-MQTT_CLIENT_ID = "MySmartTunnel_NewHardware"
-MQTT_TOPIC = "monash/studentB/tunnel_data"
+INFLUX_TOKEN = "YOUR_INFLUXDB_TOKEN"
+TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
 
 # --- HARDWARE SETUP ---
 # LEDs
