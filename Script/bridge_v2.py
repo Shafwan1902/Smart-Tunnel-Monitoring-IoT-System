@@ -3,14 +3,15 @@ import json # <--- Need this to unpack the box
 from influxdb_client import InfluxDBClient, Point
 from influxdb_client.client.write_api import SYNCHRONOUS
 
-# --- CONFIGURATION (Match your Setup) ---
+# --- 1. CONFIGURATION ---
 MQTT_BROKER = "broker.hivemq.com"
 MQTT_TOPIC = "monash/studentB/tunnel_data"
 
+# InfluxDB Settings
 INFLUX_URL = "http://localhost:8086"
-INFLUX_TOKEN = "tx2_FEOzI4qx-z4nSLiAFyLxwXyUmX4GBntWeTmcysrrB_LZEPlOB_uqI4y24bdVCPanTIj1a4iNQHcdpN7law==" # <--- PASTE YOUR TOKEN
-INFLUX_ORG = "ShafwanCorporation"
-INFLUX_BUCKET = "SmartTunnel"
+INFLUX_TOKEN = "YOUR_INFLUX_TOKEN"
+INFLUX_ORG = "YOUR_INFLUX_ORG"
+INFLUX_BUCKET = "YOUR_INFLUX_BUCKET"
 
 # --- INFLUXDB SETUP ---
 client_db = InfluxDBClient(url=INFLUX_URL, token=INFLUX_TOKEN, org=INFLUX_ORG)
